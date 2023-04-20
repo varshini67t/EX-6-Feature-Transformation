@@ -79,7 +79,7 @@ qt=QuantileTransformer (output_distribution = 'normal')
 df['ModerateNegativeSkew_3']=pd.DataFrame(qt.fit_transform(df[[ 'ModerateNegativeSkew']]))
 sm.qqplot(df[ 'ModerateNegativeSkew_3'], line='45')
 plt.show()
-
+# OUTPUT
 # RESULT
 Thus we have performed Feature Transformation is a techniques by which we can boost our model performance.
 
