@@ -80,6 +80,18 @@ df['ModerateNegativeSkew_3']=pd.DataFrame(qt.fit_transform(df[[ 'ModerateNegativ
 sm.qqplot(df[ 'ModerateNegativeSkew_3'], line='45')
 plt.show()
 # OUTPUT
+
+![image](https://user-images.githubusercontent.com/107982953/235741473-5eb43516-01be-4238-8f01-574e10cd163d.png)
+![image](https://user-images.githubusercontent.com/107982953/235741589-5374de6b-cfbb-4d86-b028-a3e2b35e0552.png)
+![image](https://user-images.githubusercontent.com/107982953/235741646-f51a030c-1301-4cbf-9260-0309a48067dd.png)
+![image](https://user-images.githubusercontent.com/107982953/235741708-3a67fe73-98d9-40d1-873c-496d0642ce67.png)
+![image](https://user-images.githubusercontent.com/107982953/235741779-65af1c88-6957-4ea7-b6cf-647c8f7c9b4d.png)
+![image](https://user-images.githubusercontent.com/107982953/235741844-49d357cb-da7c-4727-b886-cdd7f534cf7b.png)
+![image](https://user-images.githubusercontent.com/107982953/235741924-8b8bcf44-1590-401c-a5f3-18d738f26dd8.png)
+![image](https://user-images.githubusercontent.com/107982953/235741999-fab1f162-ef89-4174-b792-e6f32c146923.png)
+![image](https://user-images.githubusercontent.com/107982953/235742067-4e4b1efd-504b-46c4-b80b-9d13ecf398be.png)
+![image](https://user-images.githubusercontent.com/107982953/235742145-7b3e9232-4df0-4032-8a7e-a90bd1654133.png)
+
 # RESULT
 Thus we have performed Feature Transformation is a techniques by which we can boost our model performance.
 
